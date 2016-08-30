@@ -2,7 +2,6 @@
 
 import sys
 import numpy as np
-import matplotlib.pyplot as plt
 import operator
 
 def main(pwm_file_name):
@@ -64,7 +63,7 @@ def main(pwm_file_name):
             base_name, p = j[0], j[1]
             dy = p * IC * svg_pwm_height / 2
             y += dy
-            svg_file.write(svg_pwm_text_char_line.format(x, y, svg_color_dict[base_name], "Times New Roman", dy, base_name))
+            svg_file.write(svg_pwm_text_char_line.format(x, y, svg_color_dict[base_name], "Arial", dy, base_name))
         svg_file.write(" \n")
         x += svg_pwm_width
 
