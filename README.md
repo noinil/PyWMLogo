@@ -1,2 +1,2 @@
 # PyWMLogo
-Create svg file of content logo for DNA-binding motif from PWM.
+Create svg file of content logo for protein-binding DNA motif from PWM.
